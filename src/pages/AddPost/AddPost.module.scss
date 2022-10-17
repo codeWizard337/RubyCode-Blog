@@ -1,0 +1,40 @@
+.title {
+
+    input {
+        font-size: 42px;
+        font-weight: 900;
+    }
+
+    div {
+        &:before,
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.image {
+    width: 100%;
+}
+
+.tags {
+    margin: 15px 0;
+}
+
+.buttons {
+    display: flex;
+
+    button {
+        margin-right: 15px;
+    }
+}
+
+.editor {
+
+    margin-bottom: 30px;
+
+    .editor-toolbar {
+        border:0;
+        background-color: rgba(12, 8, 8, 0.02)
+    }
+}
